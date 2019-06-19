@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Snake">
+      <UniqueIdentifier>{02f8fb6f-c3a8-4aec-8318-aedfff1593c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snake">
+      <UniqueIdentifier>{cf0e57a8-4abc-43e8-8184-e7f02b38a464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong">
+      <UniqueIdentifier>{aba8e2c7-b6fb-4a9c-bcb8-7398dc4e4e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pong">
+      <UniqueIdentifier>{418b5a89-beba-4872-b814-858428abcce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pacman">
+      <UniqueIdentifier>{b59791b8-564d-4f9d-b71d-2ccfa9f6ca0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpaceInvaders">
+      <UniqueIdentifier>{06aee71c-c125-415a-8a97-aa205821a55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpaceInvaders">
+      <UniqueIdentifier>{2a62ddfd-858f-4a61-98c0-659a134c2f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helicopter">
+      <UniqueIdentifier>{1e111f75-f3e6-4893-87ef-f0c8470e0e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helicopter">
+      <UniqueIdentifier>{59621dd6-c75f-4b18-ad9a-d08a42ffcc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PacMan">
+      <UniqueIdentifier>{691f981c-9bfc-4fda-858e-a600d2ac9083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Pong.h">
+      <Filter>Header Files\Pong</Filter>
+    </ClInclude>
+    <ClInclude Include="PongGame.h">
+      <Filter>Header Files\Pong</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcadeMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helicopter.h">
+      <Filter>Header Files\Helicopter</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosions.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="game.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Invader.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InvaderFormation.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InvaderLaser.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LivesDisplay.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Pacman.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLaser.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceInvadersClone.h">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PacmanSprite.hpp">
+      <Filter>Header Files\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="toString.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="GameControl.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetter.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="PacEvent.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="PacmanGame.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="8_Bit_Barry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Pong.cpp">
+      <Filter>Source Files\Pong</Filter>
+    </ClCompile>
+    <ClCompile Include="PongGame.cpp">
+      <Filter>Source Files\Pong</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcadeMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter.cpp">
+      <Filter>Source Files\Helicopter</Filter>
+    </ClCompile>
+    <ClCompile Include="Invader.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="InvaderFormation.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LivesDisplay.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalInvaderLaser.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLaser.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosions.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceInvadersClone.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldWall.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacman.cpp">
+      <Filter>Source Files\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSetter.cpp">
+      <Filter>Source Files\PacMan</Filter>
+    </ClCompile>
+    <ClCompile Include="PacmanGame.cpp">
+      <Filter>Source Files\PacMan</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\PacMan</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControl.cpp">
+      <Filter>Source Files\PacMan</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
